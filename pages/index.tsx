@@ -19,7 +19,7 @@ export default function Home() {
     overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80"
     >
       <Head>
-        <title>Pasinduapos Portfolio</title>
+        <title>Pasindu Weerakoon Portfolio</title>
       </Head>
 
       <Header />
