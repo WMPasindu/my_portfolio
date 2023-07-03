@@ -9,7 +9,7 @@ const projects = [
     projectName: "Antium Systems",
     category: "AI",
     type: "Web",
-    image: "./antium.png",
+    image: "./Antium.png",
     description:
       "Antium is an advanced AI system that revolutionizes module training by utilizing cloud resources and delivering exceptional accuracy. With a selection of high-performing modules, users can train their own datasets for enhanced results. The system provides a comprehensive dashboard with graphs and visualizations for easy monitoring and evaluation. Previous information is readily accessible, enabling users to compare and optimize their current outcomes effectively. Antium simplifies the training process, reduces resource requirements, and delivers superior accuracy, offering users improved results with significant time and effort savings.",
     link: "",
