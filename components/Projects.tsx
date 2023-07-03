@@ -9,11 +9,11 @@ const projects = [
     projectName: "Antium Systems",
     category: "AI",
     type: "Web",
-    image: "./Antium.png",
+    image: "./antium.png",
     description:
       "Antium is an advanced AI system that revolutionizes module training by utilizing cloud resources and delivering exceptional accuracy. With a selection of high-performing modules, users can train their own datasets for enhanced results. The system provides a comprehensive dashboard with graphs and visualizations for easy monitoring and evaluation. Previous information is readily accessible, enabling users to compare and optimize their current outcomes effectively. Antium simplifies the training process, reduces resource requirements, and delivers superior accuracy, offering users improved results with significant time and effort savings.",
     link: "",
-    technologies: "next.js, TypeScript, TilwindCss, AWS",
+    technologies: "next.js, TypeScript, Tailwind CSS, AWS",
   },
   {
     id: 2,
@@ -97,7 +97,7 @@ const Projects = (props: Props) => {
         {projects.map((project, i) => (
           <div
             className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 
-          items-center justify-center p-20 md:p-44 h-screen" key={project.id}
+          items-center justify-center p-10 md:p-44 h-screen" key={project.id}
           >
             <motion.img
               initial={{
@@ -113,7 +113,7 @@ const Projects = (props: Props) => {
               }}
               viewport={{ once: true }}
               src={project.image}
-              className="max-w-[300px] max-h-[250px]"
+              className="max-w-[500px] max-h-[400px]"
             />
 
             <div className="space-y-10 px-0 md:px-10 max-w-6xl">
