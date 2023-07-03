@@ -77,7 +77,7 @@ function Skills({}: Props) {
 
       <div className="grid grid-cols-3 gap-4 pt-[130px]">
         {skillSet.map((item) => (
-          <Skill data={item} />
+          <Skill data={item} key={item.id} />
         ))}
       </div>
     </motion.div>

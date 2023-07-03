@@ -87,7 +87,7 @@ function WorkExperince({}: Props) {
 
       <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-mandatory  pt-[170px] scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
         {workExp.map((item) => (
-          <ExperinceCard data={item} />
+          <ExperinceCard data={item} key={item.jobId} />
         ))}
       </div>
     </motion.div>
