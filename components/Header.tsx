@@ -26,17 +26,17 @@ function Header({}: Props) {
       >
         {/* social icons */}
         <SocialIcon
-          url="https://twitter.com/jaketrent"
+          url="https://linkedin.com/in/pasindu-weerakoon"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://twitter.com/jaketrent"
+          url="https://github.com/WMPasindu"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://twitter.com/jaketrent"
+          url="https://twitter.com/wmpasindu"
           fgColor="gray"
           bgColor="transparent"
         />
