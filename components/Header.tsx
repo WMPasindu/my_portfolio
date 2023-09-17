@@ -24,7 +24,6 @@ function Header({}: Props) {
         }}
         className="flex flex-row items-center"
       >
-        {/* social icons */}
         <SocialIcon
           url="https://linkedin.com/in/pasindu-weerakoon"
           fgColor="gray"
